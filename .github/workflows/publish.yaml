@@ -19,7 +19,7 @@ jobs:
           cache: "pnpm"
           registry-url: "https://registry.npmjs.org"
       - name: Install dependencies 🔧
-        run: pnpm ci
+        run: pnpm install
       - name: Publish package on NPM 📦
         run: pnpm publish
         env:
