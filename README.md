@@ -17,7 +17,7 @@ Add this to your `package.json`:
         "extends": ["tachi"]
     },
     "stylelint": {
-        "extends": ["@expanseagency/tachi"]
+        "extends": ["@expanseagency/tachi/stylelint"]
     }
 ```
 
@@ -31,7 +31,7 @@ or add this to your `.eslintrc`:
 or add this to your `.stylelintrc`:
 ```json
 {
-    "extends": ["@expanseagency/tachi"]
+    "extends": ["@expanseagency/tachi/stylelint"]
 }
 ```
 

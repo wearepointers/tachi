@@ -1,21 +1,25 @@
 {
-  "name": "@expanseagency/tachi",
+  "name": "@expanseagency/eslint-config-tachi",
   "version": "1.0.7",
   "description": "Eslint, Prettier, Stylelint config maintained by Expanse Agency",
   "main": "index.js",
-  "scripts": {},
+  "scripts": {
+    "stylelint": "stylelint \"**/*.scss\" --fix"
+  },
   "author": "Expanse Agency at https://expanse.so",
   "license": "MIT",
   "peerDependencies": {
+    "eslint": "^8.51.0",
     "prettier": "^3.0.3",
-    "stylelint": "^15.11.0",
-    "eslint": "^8.51.0"
+    "stylelint": "^15.11.0"
   },
-  "devDependencies": {
+  "dependencies": {
+    "@rushstack/eslint-patch": "^1.5.1",
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
+    "postcss-scss": "^4.0.9",
     "stylelint-config-property-sort-order-smacss": "^9.1.0"
   },
   "repository": {
@@ -25,5 +29,12 @@
   "bugs": {
     "url": "https://github.com/expanse-agency/tachi/issues"
   },
-  "homepage": "https://github.com/expanse-agency/tachi#readme"
+  "homepage": "https://github.com/expanse-agency/tachi#readme",
+  "stylelint": {
+    "extends": "./stylelint.js"
+  },
+  "eslintConfig": {
+    "extends": "./index.js"
+  },
+  "prettier": "./prettier.js"
 }

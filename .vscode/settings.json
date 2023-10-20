@@ -1,0 +1,10 @@
+{
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll.prettier": true,
+    "source.fixAll.stylelint": true,
+    "source.fixAll.eslint": true,
+    "source.removeUnusedImports": true
+  },
+  "stylelint.validate": ["css", "less", "postcss", "scss"]
+}
