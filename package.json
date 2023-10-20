@@ -1,6 +1,6 @@
 {
   "name": "@expanseagency/tachi",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Eslint, Prettier, Stylelint config maintained by Expanse Agency",
   "main": "index.js",
   "scripts": {},
