@@ -44,7 +44,7 @@ or add this to your `.prettierrc`:
 
 ## Contributing
 
-Pull requests are awlays welcome. For major changes, please open an issue first to discuss what you would like to change.
+Pull requests are always welcome. For major changes, please open an issue first to discuss what you would like to change.
 
 ## License
 
