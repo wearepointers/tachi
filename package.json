@@ -1,25 +1,22 @@
 {
   "name": "@expanseagency/tachi",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "Eslint, Prettier, Stylelint config maintained by Expanse Agency",
   "main": "index.js",
   "scripts": {},
   "author": "Expanse Agency at https://expanse.so",
   "license": "MIT",
+  "peerDependencies": {
+    "prettier": "^3.0.3",
+    "stylelint": "^15.11.0",
+    "eslint": "^8.51.0"
+  },
   "devDependencies": {
     "@trivago/prettier-plugin-sort-imports": "^4.2.0",
     "@typescript-eslint/eslint-plugin": "^6.8.0",
-    "eslint": "^8.51.0",
     "eslint-config-prettier": "^9.0.0",
     "eslint-plugin-prettier": "^5.0.1",
-    "prettier": "^3.0.3",
-    "stylelint": "^15.11.0",
     "stylelint-config-property-sort-order-smacss": "^9.1.0"
-  },
-  "dependencies": {
-    "eslint-scope": "^7.2.2",
-    "eslint-visitor-keys": "^3.4.3",
-    "prettier-linter-helpers": "^1.0.0"
   },
   "repository": {
     "type": "git",
