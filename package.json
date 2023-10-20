@@ -29,12 +29,5 @@
   "bugs": {
     "url": "https://github.com/expanse-agency/tachi/issues"
   },
-  "homepage": "https://github.com/expanse-agency/tachi#readme",
-  "stylelint": {
-    "extends": "./stylelint.js"
-  },
-  "eslintConfig": {
-    "extends": "./index.js"
-  },
-  "prettier": "./prettier.js"
+  "homepage": "https://github.com/expanse-agency/tachi#readme"
 }

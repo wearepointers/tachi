@@ -11,33 +11,24 @@ npm i -save-dev @expanseagency/tachi
 ## Usage
 
 Add this to your `package.json`:
-```json
-    "prettier": "@expanseagency/tachi/prettier",
-    "eslintConfig": {
-        "extends": ["tachi"]
-    },
-    "stylelint": {
-        "extends": ["@expanseagency/tachi/stylelint"]
-    }
-```
 
-or add this to your `.eslintrc`:
-```json
-{
-    "extends": ["tachi"]
+or add this to your `.eslintrc.js`:
+```js
+module.exports = {
+    "extends": [require.resolve("@expanseagency/tachi")],
 }
 ```
 
-or add this to your `.stylelintrc`:
-```json
-{
+or add this to your `.stylelintrc.js`:
+```js
+module.exports = {
     "extends": ["@expanseagency/tachi/stylelint"]
 }
 ```
 
-or add this to your `.prettierrc`:
-```json
-{
+or add this to your `.prettierrc.js`:
+```js
+module.exports = {
     "extends":["@expanseagency/tachi/prettier"]
 }
 ```
