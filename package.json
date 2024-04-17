@@ -1,6 +1,6 @@
 {
   "name": "@wearepointers/tachi",
-  "version": "1.0.9",
+  "version": "1.0.11",
   "description": "Eslint, Prettier, Stylelint config maintained by Pointers",
   "main": "index.js",
   "scripts": {
