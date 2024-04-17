@@ -5,7 +5,7 @@ This is by far not a perfect config. We are still working on it. Feel free to co
 ## Installation
 
 ```bash
-npm i -save-dev @expanseagency/tachi
+npm i -save-dev @wearepointers/tachi
 ```
 
 ## Usage
@@ -15,21 +15,21 @@ Add this to your `package.json`:
 or add this to your `.eslintrc.js`:
 ```js
 module.exports = {
-    "extends": [require.resolve("@expanseagency/tachi")],
+    "extends": [require.resolve("@wearepointers/tachi")],
 }
 ```
 
 or add this to your `.stylelintrc.js`:
 ```js
 module.exports = {
-    "extends": ["@expanseagency/tachi/stylelint"]
+    "extends": ["@wearepointers/tachi/stylelint"]
 }
 ```
 
 or add this to your `.prettierrc.js`:
 ```js
 module.exports = {
-    "extends":["@expanseagency/tachi/prettier"]
+    "extends":["@wearepointers/tachi/prettier"]
 }
 ```
 
@@ -39,4 +39,4 @@ Pull requests are always welcome. For major changes, please open an issue first 
 
 ## License
 
-MIT © [Expanse Agency](https://expanse.so) 2023
+MIT © [Pointers](https://pointers.agency) 2024

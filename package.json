@@ -1,12 +1,12 @@
 {
-  "name": "@expanseagency/tachi",
+  "name": "@wearepointers/tachi",
   "version": "1.0.9",
-  "description": "Eslint, Prettier, Stylelint config maintained by Expanse Agency",
+  "description": "Eslint, Prettier, Stylelint config maintained by Pointers",
   "main": "index.js",
   "scripts": {
     "stylelint": "stylelint \"**/*.scss\" --fix"
   },
-  "author": "Expanse Agency at https://expanse.so",
+  "author": "Pointers at https://pointers.agency",
   "license": "MIT",
   "peerDependencies": {
     "eslint": "^8.51.0",
@@ -24,10 +24,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/expanse-agency/tachi.git"
+    "url": "git+https://github.com/wearepointers/tachi.git"
   },
   "bugs": {
-    "url": "https://github.com/expanse-agency/tachi/issues"
+    "url": "https://github.com/wearepointers/tachi/issues"
   },
-  "homepage": "https://github.com/expanse-agency/tachi#readme"
+  "homepage": "https://github.com/wearepointers/tachi#readme"
 }
